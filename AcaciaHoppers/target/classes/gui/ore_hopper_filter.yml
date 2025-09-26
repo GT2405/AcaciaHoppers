@@ -1,0 +1,208 @@
+ore_hopper_filter_gui:
+  size: 54
+  title: "Ore Hopper Filter"
+  pages:
+    1:
+      slots:
+        # Top decorative row
+        0: DECORATIVE
+        1: DECORATIVE
+        2: DECORATIVE
+        3: DECORATIVE
+        4: DECORATIVE
+        5: DECORATIVE
+        6: DECORATIVE
+        7: DECORATIVE
+        8: DECORATIVE
+
+        # Row 1
+        9: DECORATIVE
+        10: coal_ore
+        11: deepslate_coal_ore
+        12: iron_ore
+        13: deepslate_iron_ore
+        14: copper_ore
+        15: deepslate_copper_ore
+        16: gold_ore
+        17: DECORATIVE
+
+        # Row 2
+        18: DECORATIVE
+        19: deepslate_gold_ore
+        20: redstone_ore
+        21: deepslate_redstone_ore
+        22: emerald_ore
+        23: deepslate_emerald_ore
+        24: lapis_ore
+        25: deepslate_lapis_ore
+        26: DECORATIVE
+
+        # Row 3
+        27: DECORATIVE
+        28: diamond_ore
+        29: deepslate_diamond_ore
+        30: nether_gold_ore
+        31: nether_quartz_ore
+        32: raw_iron_block
+        33: raw_copper_block
+        34: raw_gold_block
+        35: DECORATIVE
+
+        # Row 4
+        36: DECORATIVE
+        37: raw_iron
+        38: raw_copper
+        39: raw_gold
+        40: coal
+        41: charcoal
+        42: block_of_coal
+        43: iron_ingot
+        44: DECORATIVE
+
+        # Bottom row / controls
+        45: PREVIOUS_PAGE
+        46: HOLOGRAM_TOGGLE
+        47: DECORATIVE
+        48: DECORATIVE
+        49: CLOSE_GUI
+        50: DECORATIVE
+        51: DECORATIVE
+        52: DECORATIVE
+        53: NEXT_PAGE
+
+    2:
+      slots:
+        # Top decorative row
+        0: DECORATIVE
+        1: DECORATIVE
+        2: DECORATIVE
+        3: DECORATIVE
+        4: DECORATIVE
+        5: DECORATIVE
+        6: DECORATIVE
+        7: DECORATIVE
+        8: DECORATIVE
+
+        # Row 1
+        9: DECORATIVE
+        10: iron_ingot
+        11: block_of_iron
+        12: copper_ingot
+        13: block_of_copper
+        14: gold_nugget
+        15: gold_ingot
+        16: block_of_gold
+        17: DECORATIVE
+
+        # Row 2
+        18: DECORATIVE
+        19: redstone
+        20: block_of_redstone
+        21: emerald
+        22: block_of_emerald
+        23: lapis_lazuli
+        24: block_of_lapis_lazuli
+        25: diamond
+        26: DECORATIVE
+
+        # Row 3
+        27: DECORATIVE
+        28: block_of_diamond
+        29: nether_quartz
+        30: block_of_quartz
+        31: amethyst_shard
+        32: amethyst_cluster
+        33: block_of_amethyst
+        34: glowstone_dust
+        35: DECORATIVE
+
+        # Row 4
+        36: DECORATIVE
+        37: glowstone
+        38: nether_scrap
+        39: ancient_debris
+        40: netherite_ingot
+        41: block_of_netherite
+        42: gilded_blackstone
+        43: EMPTY_SLOT
+        44: EMPTY_SLOT
+
+        # Bottom row / controls
+        45: PREVIOUS_PAGE
+        46: HOLOGRAM_TOGGLE
+        47: DECORATIVE
+        48: DECORATIVE
+        49: CLOSE_GUI
+        50: DECORATIVE
+        51: DECORATIVE
+        52: DECORATIVE
+        53: NEXT_PAGE
+
+# If you need to expand to another page, remove the # before 3 on line 146
+# then remove all the other # directly below that one
+# (delete the #, don't replace them with spaces)
+
+
+#    3:
+#     slots:
+#       # Row 0 – Top decorative (do not modify)
+#       0: DECORATIVE
+#       1: DECORATIVE
+#       2: DECORATIVE
+#       3: DECORATIVE
+#       4: DECORATIVE
+#       5: DECORATIVE
+#       6: DECORATIVE
+#       7: DECORATIVE
+#       8: DECORATIVE
+
+#       9: DECORATIVE
+#       10: EMPTY_SLOT
+#       11: EMPTY_SLOT
+#       12: EMPTY_SLOT
+#       13: EMPTY_SLOT
+#       14: EMPTY_SLOT
+#       15: EMPTY_SLOT
+#       16: EMPTY_SLOT
+#       17: DECORATIVE
+
+#       18: DECORATIVE
+#       19: EMPTY_SLOT
+#       20: EMPTY_SLOT
+#       21: EMPTY_SLOT
+#       22: EMPTY_SLOT
+#       23: EMPTY_SLOT
+#       24: EMPTY_SLOT
+#       25: EMPTY_SLOT
+#       26: DECORATIVE
+
+#       27: DECORATIVE
+#       28: EMPTY_SLOT
+#       29: EMPTY_SLOT
+#       30: EMPTY_SLOT
+#       31: EMPTY_SLOT
+#       32: EMPTY_SLOT
+#       33: EMPTY_SLOT
+#       34: EMPTY_SLOT
+#       35: DECORATIVE
+
+#       36: DECORATIVE
+#       37: EMPTY_SLOT
+#       38: EMPTY_SLOT
+#       39: EMPTY_SLOT
+#       40: EMPTY_SLOT
+#       41: EMPTY_SLOT
+#       42: EMPTY_SLOT
+#       43: EMPTY_SLOT
+#       44: DECORATIVE #
+
+#       # Row 5 – Bottom controls
+#       45: PREVIOUS_PAGE
+#       46: HOLOGRAM_TOGGLE
+#       47: DECORATIVE
+#       48: DECORATIVE
+#       49: CLOSE_GUI
+#       50: DECORATIVE
+#       51: DECORATIVE
+#       52: DECORATIVE
+#       53: NEXT_PAGE

@@ -1,0 +1,124 @@
+super_chest_gui:
+  size: 54
+  title: "Super Chest"
+  pages:
+    1:
+      slots:
+        # Rows 1–5 – Player storage (empty)
+        0: EMPTY_SLOT
+        1: EMPTY_SLOT
+        2: EMPTY_SLOT
+        3: EMPTY_SLOT
+        4: EMPTY_SLOT
+        5: EMPTY_SLOT
+        6: EMPTY_SLOT
+        7: EMPTY_SLOT
+        8: EMPTY_SLOT
+
+        9: EMPTY_SLOT
+        10: EMPTY_SLOT
+        11: EMPTY_SLOT
+        12: EMPTY_SLOT
+        13: EMPTY_SLOT
+        14: EMPTY_SLOT
+        15: EMPTY_SLOT
+        16: EMPTY_SLOT
+        17: EMPTY_SLOT
+
+        18: EMPTY_SLOT
+        19: EMPTY_SLOT
+        20: EMPTY_SLOT
+        21: EMPTY_SLOT
+        22: EMPTY_SLOT
+        23: EMPTY_SLOT
+        24: EMPTY_SLOT
+        25: EMPTY_SLOT
+        26: EMPTY_SLOT
+
+        27: EMPTY_SLOT
+        28: EMPTY_SLOT
+        29: EMPTY_SLOT
+        30: EMPTY_SLOT
+        31: EMPTY_SLOT
+        32: EMPTY_SLOT
+        33: EMPTY_SLOT
+        34: EMPTY_SLOT
+        35: EMPTY_SLOT
+
+        36: EMPTY_SLOT
+        37: EMPTY_SLOT
+        38: EMPTY_SLOT
+        39: EMPTY_SLOT
+        40: EMPTY_SLOT
+        41: EMPTY_SLOT
+        42: EMPTY_SLOT
+        43: EMPTY_SLOT
+        44: EMPTY_SLOT
+
+        # Bottom row / controls (matches hopper GUIs)
+        45: PREVIOUS_PAGE
+        46: HOLOGRAM_TOGGLE
+        47: DECORATIVE
+        48: DECORATIVE
+        49: CLOSE_GUI
+        50: DECORATIVE
+        51: DECORATIVE
+        52: DECORATIVE
+        53: NEXT_PAGE
+
+# Optional additional pages (duplicate structure for extra storage)
+#    2:
+#      slots:
+#        0: EMPTY_SLOT
+#        2: EMPTY_SLOT
+#        3: EMPTY_SLOT
+#        4: EMPTY_SLOT
+#        5: EMPTY_SLOT
+#        6: EMPTY_SLOT
+#        7: EMPTY_SLOT
+#        8: EMPTY_SLOT
+#        9: EMPTY_SLOT
+#        10: EMPTY_SLOT
+#        11: EMPTY_SLOT
+#        12: EMPTY_SLOT
+#        13: EMPTY_SLOT
+#        14: EMPTY_SLOT
+#        15: EMPTY_SLOT
+#        16: EMPTY_SLOT
+#        17: EMPTY_SLOT
+#        18: EMPTY_SLOT
+#        19: EMPTY_SLOT
+#        20: EMPTY_SLOT
+#        21: EMPTY_SLOT
+#        22: EMPTY_SLOT
+#        23: EMPTY_SLOT
+#        24: EMPTY_SLOT
+#        25: EMPTY_SLOT
+#        26: EMPTY_SLOT
+#        27: EMPTY_SLOT
+#        28: EMPTY_SLOT
+#        29: EMPTY_SLOT
+#        30: EMPTY_SLOT
+#        31: EMPTY_SLOT
+#        32: EMPTY_SLOT
+#        33: EMPTY_SLOT
+#        34: EMPTY_SLOT
+#        35: EMPTY_SLOT
+#        36: EMPTY_SLOT
+#        37: EMPTY_SLOT
+#        38: EMPTY_SLOT
+#        39: EMPTY_SLOT
+#        40: EMPTY_SLOT
+#        41: EMPTY_SLOT
+#        42: EMPTY_SLOT
+#        43: EMPTY_SLOT
+#        44: EMPTY_SLOT
+#        45: PREVIOUS_PAGE
+#        46: HOLOGRAM_TOGGLE
+#        47: DECORATIVE
+#        48: DECORATIVE
+#        49: CLOSE_GUI
+#        50: DECORATIVE
+#        51: DECORATIVE
+#        52: DECORATIVE
+#        53: NEXT_PAGE

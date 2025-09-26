@@ -1,0 +1,192 @@
+# ========================================
+# AcaciaHoppers Plugin Config
+# ========================================
+
+# -----------------------------
+# NAMES / ITEM GRADIENTS
+# -----------------------------
+names:
+  mobHopper: "<#FF0000>&l&oM<#FF1300>&l&oo<#FF2600>&l&ob <#FF4C00>&l&oH<#6000>&l&oo<#FF7300>&l&op<#FF8600>&l&op<#FF9900>&l&oe<#FFAC00>&l&or"
+  cropHopper: "<#54F47F>&l&oC<#53E172>&l&or<#52CE65>&l&oo<#52BC57>&l&op<#51A94A>&l&o <#50963D>&l&oH<#64A740>&l&oo<#78B742>&l&op<#8BC845>&l&op<#9FD847>&l&oe<#B3E94A>&l&or"
+  treeHopper: "<#62B071>&l&oT<#6DAF73>&l&or<#77AE75>&l&oe<#82AD77>&l&oe<#8DAC79>&l&o <#98AC7B>&l&oH<#A2AB7D>&l&oo<#ADAA7F>&l&op<#B8A981>&l&op<#C2A883>&l&oe<#CDA785>&l&or"
+  fishHopper: "<#B8FCFF>&l&oF<#B0FCFC>&l&oi<#A8FDF9>&l&os<#A0FDF5>&l&oh<#98FDF2>&l&o <#90FEEF>&l&oH<#88FEEC>&l&oo<#80FEE9>&l&op<#78FEE5>&l&op<#70FFE2>&l&oe<#68FFDF>&l&or"
+  oreHopper: "<#83b3d8>&l&oO<#8ba1d8>&l&or<#9390d8>&l&oe<#9a7ed9>&l&o <#a26dd9>&l&oH<#aa5bd9>&l&oo<#a071d9>&l&op<#9787d9>&l&op<#8d9dd8>&l&oe<#83b3d8>&l&or"
+  superChest: "<#f3904f>&l&oS<#f6a553>&l&ou<#f9bb58>&l&op<#fcd05c>&l&oe<#fcd05c>&l&or<#fcd05c>&l&o <#fcd05c>&l&oC<#fcd05c>&l&oh<#f9bb58>&l&oe<#f6a553>&l&os<#f3904f>&l&ot"
+
+# -----------------------------
+# HOLOGRAM SETTINGS
+# -----------------------------
+holograms:
+  enabled:
+    mobhopper: true
+    crophopper: true
+    treehopper: true
+    fishhopper: true
+    orehopper: true
+    superchest: true
+  showOwner: true
+  ownerFormat: "&c&lOwned by: &b&l[playername]"
+  height: 0.8
+  updateOnReload: true
+
+# -----------------------------
+# GUI ITEM MAPPINGS
+# -----------------------------
+gui_items:
+  DECORATIVE: light_blue_stained_glass_pane
+  NEXT_PAGE: arrow
+  PREVIOUS_PAGE: arrow
+  CLOSE_GUI: barrier
+  HOLOGRAM_TOGGLE: end_crystal
+  EMPTY_SLOT: light_gray_stained_glass_pane
+
+# -----------------------------
+# GUI LABELS (Button Names)
+# -----------------------------
+gui_labels:
+  NEXT_PAGE: "&aNext Page"
+  PREVIOUS_PAGE: "&aPrevious Page"
+  CLOSE_GUI: "&cClose GUI"
+  HOLOGRAM_TOGGLE: "&bToggle Hologram"
+  DECORATIVE: " "
+
+# -----------------------------
+# MESSAGES / CHAT PROMPTS
+# -----------------------------
+messages:
+  hopper:
+    placed: "AcaciaHoppers: {item} has been placed"
+    mined: "AcaciaHoppers: {item} has been mined"
+    filterUpdated: "AcaciaHoppers: {item} hopper filter has been updated"
+    inventoryFull: "AcaciaHoppers: {item} cannot be mined until you make space in your inventory"
+    itemsInside: "AcaciaHoppers: {item} cannot be picked up with items inside, please remove the items then try again"
+    overflow: "AcaciaHoppers: Your {item} hopper is overflowing at {x}, {y}, {z}!"
+    overflowCooldown: 10
+
+  superchest:
+    placed: "AcaciaHoppers: {item} has been placed"
+    mined: "AcaciaHoppers: {item} has been mined"
+    inventoryFull: "AcaciaHoppers: {item} cannot be mined until you make space in your inventory"
+    itemsInside: "AcaciaHoppers: {item} cannot be picked up with items inside, please remove the items then try again"
+    overflow: "AcaciaHoppers: Your {item} Super Chest is overflowing at {x}, {y}, {z}!"
+    overflowCooldown: 10
+    notOwnerBreak: "AcaciaHoppers: You cannot break another player's Super Chest!"
+
+# -----------------------------
+# HOPPER SETTINGS
+# -----------------------------
+hopper:
+  itemsPerTick: 3.2
+  maxItemsPerSecond: 64
+  stackAware: true
+  lore:
+    mobhopper:
+      - "&e&lA custom hopper that collects items in a chunk"
+      - "&e&lShift click when placed to open filter"
+      - "&e&lItems/Tick: &f{itemsPerTick}"
+      - "&e&lMax Items/Sec: &f{maxItemsPerSecond}"
+    crophopper:
+      - "&e&lA custom hopper that collects items in a chunk"
+      - "&e&lShift click when placed to open filter"
+      - "&e&lItems/Tick: &f{itemsPerTick}"
+      - "&e&lMax Items/Sec: &f{maxItemsPerSecond}"
+    treehopper:
+      - "&e&lA custom hopper that collects items in a chunk"
+      - "&e&lShift click when placed to open filter"
+      - "&e&lItems/Tick: &f{itemsPerTick}"
+      - "&e&lMax Items/Sec: &f{maxItemsPerSecond}"
+    fishhopper:
+      - "&e&lA custom hopper that collects items in a chunk"
+      - "&e&lShift click when placed to open filter"
+      - "&e&lItems/Tick: &f{itemsPerTick}"
+      - "&e&lMax Items/Sec: &f{maxItemsPerSecond}"
+    orehopper:
+      - "&e&lA custom hopper that collects items in a chunk"
+      - "&e&lShift click when placed to open filter"
+      - "&e&lItems/Tick: &f{itemsPerTick}"
+      - "&e&lMax Items/Sec: &f{maxItemsPerSecond}"
+
+# -----------------------------
+# SUPER CHEST SETTINGS
+# -----------------------------
+superChest:
+  lore:
+    - "&e&lA chest that stores more items"
+    - "&e&lMax Pages: &f{maxPages}"
+
+  storageRows: 5
+  reservedBottomRow: true
+  maxPages: 25
+  autoSaveGUI: true
+  ownerOnlyBreak: true
+
+# -----------------------------
+# PLAYER DATA TRACKING
+# -----------------------------
+playerData:
+  trackHoppers: true
+  trackSuperChests: true
+  file: "playerdata.yml"
+
+# -----------------------------
+# INDIVIDUAL HOPPER SETTINGS
+# -----------------------------
+hoppers:
+  mobhopper:
+    itemsPerTick: 3.2
+    maxItemsPerSecond: 64
+  crophopper:
+    itemsPerTick: 3.2
+    maxItemsPerSecond: 64
+  treehopper:
+    itemsPerTick: 3.2
+    maxItemsPerSecond: 64
+  orehopper:
+    itemsPerTick: 3.2
+    maxItemsPerSecond: 64
+  fishhopper:
+    itemsPerTick: 3.2
+    maxItemsPerSecond: 64
+
+# -----------------------------
+# DEBUG OPTIONS
+# -----------------------------
+debug:
+  hopper: true
+  superchest: true
+  commands: false
+  holograms: false
+  config: true
+  autosaveInterval: 5
+
+# -----------------------------
+# COMMANDS CONFIGURATION (Plugin Commands)
+# -----------------------------
+commands:
+  acaciahoppers:
+    description: Main command for AcaciaHoppers
+    usage: /acaciahoppers <reload|chest|mob|crop|ore|tree|fish> [name]
+    permission: acaciahoppers.admin
+    permission-message: You do not have permission to use this command.
+    subcommands:
+      reload:
+        description: Reloads the entire plugin
+        usage: /acaciahoppers reload
+      chest:
+        description: Give a super chest to a player
+        usage: /acaciahoppers chest <player> [quantity]
+      mob:
+        description: Give a mob hopper to a player
+        usage: /acaciahoppers mob <player> [quantity]
+      crop:
+        description: Give a crop hopper to a player
+        usage: /acaciahoppers crop <player> [quantity]
+      ore:
+        description: Give an ore hopper to a player
+        usage: /acaciahoppers ore <player> [quantity]
+      tree:
+        description: Give a tree hopper to a player
+        usage: /acaciahoppers tree <player> [quantity]
+      fish:
+        description: Give a fish hopper to a player
+        usage: /acaciahoppers fish <player> [quantity]

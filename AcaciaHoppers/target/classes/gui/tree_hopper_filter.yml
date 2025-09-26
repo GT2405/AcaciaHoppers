@@ -1,0 +1,276 @@
+tree_hopper_filter_gui:
+  size: 54
+  title: "Tree Hopper Filter"
+  pages:
+    1:
+      slots:
+        # Top decorative row
+        0: DECORATIVE
+        1: DECORATIVE
+        2: DECORATIVE
+        3: DECORATIVE
+        4: DECORATIVE
+        5: DECORATIVE
+        6: DECORATIVE
+        7: DECORATIVE
+        8: DECORATIVE
+
+        # Row 2 - OAK
+        9: DECORATIVE
+        10: oak_log
+        11: oak_wood
+        12: stripped_oak_log
+        13: stripped_oak_wood
+        14: oak_planks
+        15: oak_leaves
+        16: oak_sapling
+        17: DECORATIVE
+
+        # Row 3 - DARK OAK
+        18: DECORATIVE
+        19: dark_oak_log
+        20: dark_oak_wood
+        21: stripped_dark_oak_log
+        22: stripped_dark_oak_wood
+        23: dark_oak_planks
+        24: dark_oak_leaves
+        25: dark_oak_sapling
+        26: DECORATIVE
+
+        # Row 4 - BIRCH
+        27: DECORATIVE
+        28: birch_log
+        29: birch_wood
+        30: stripped_birch_log
+        31: stripped_birch_wood
+        32: birch_planks
+        33: birch_leaves
+        34: birch_sapling
+        35: DECORATIVE
+
+        # Row 5 - SPRUCE
+        36: DECORATIVE
+        37: spruce_log
+        38: spruce_wood
+        39: stripped_spruce_log
+        40: stripped_spruce_wood
+        41: spruce_planks
+        42: spruce_leaves
+        43: spruce_sapling
+        44: DECORATIVE
+
+        # Bottom row / controls
+        45: PREVIOUS_PAGE
+        46: HOLOGRAM_TOGGLE
+        47: DECORATIVE
+        48: DECORATIVE
+        49: CLOSE_GUI
+        50: DECORATIVE
+        51: DECORATIVE
+        52: DECORATIVE
+        53: NEXT_PAGE
+
+    2:
+      slots:
+        # Top decorative row
+        0: DECORATIVE
+        1: DECORATIVE
+        2: DECORATIVE
+        3: DECORATIVE
+        4: DECORATIVE
+        5: DECORATIVE
+        6: DECORATIVE
+        7: DECORATIVE
+        8: DECORATIVE
+
+        # Row 2 - JUNGLE
+        9: DECORATIVE
+        10: jungle_log
+        11: jungle_wood
+        12: stripped_jungle_log
+        13: stripped_jungle_wood
+        14: jungle_planks
+        15: jungle_leaves
+        16: jungle_sapling
+        17: DECORATIVE
+
+        # Row 3 - CHERRY
+        18: DECORATIVE
+        19: cherry_log
+        20: cherry_wood
+        21: stripped_cherry_log
+        22: stripped_cherry_wood
+        23: cherry_planks
+        24: cherry_leaves
+        25: cherry_sapling
+        26: DECORATIVE
+
+        # Row 4 - ACACIA
+        27: DECORATIVE
+        28: acacia_log
+        29: acacia_wood
+        30: stripped_acacia_log
+        31: stripped_acacia_wood
+        32: acacia_planks
+        33: acacia_leaves
+        34: acacia_sapling
+        35: DECORATIVE
+
+        # Row 5 - PALE OAK
+        36: DECORATIVE
+        37: pale_oak_log
+        38: pale_oak_wood
+        39: stripped_pale_oak_log
+        40: stripped_pale_oak_wood
+        41: pale_oak_planks
+        42: pale_oak_leaves
+        43: pale_oak_sapling
+        44: DECORATIVE
+
+        # Bottom row / controls
+        45: PREVIOUS_PAGE
+        46: HOLOGRAM_TOGGLE
+        47: DECORATIVE
+        48: DECORATIVE
+        49: CLOSE_GUI
+        50: DECORATIVE
+        51: DECORATIVE
+        52: DECORATIVE
+        53: NEXT_PAGE
+
+    3:
+      slots:
+        # Top decorative row
+        0: DECORATIVE
+        1: DECORATIVE
+        2: DECORATIVE
+        3: DECORATIVE
+        4: DECORATIVE
+        5: DECORATIVE
+        6: DECORATIVE
+        7: DECORATIVE
+        8: DECORATIVE
+
+        # Row 2 - WARPED FUNGUS
+        9: DECORATIVE
+        10: warped_stem
+        11: warped_hyphae
+        12: stripped_warped_stem
+        13: stripped_warped_hyphae
+        14: warped_planks
+        15: warped_wart_block
+        16: warped_fungus
+        17: DECORATIVE
+
+        # Row 3 - CRIMSON FUNGUS
+        18: DECORATIVE
+        19: crimson_stem
+        20: crimson_hyphae
+        21: warped_crimson_stem
+        22: warped_crimson_hyphae
+        23: crimson_planks
+        24: nether_wart_block
+        25: crimson_fungus
+        26: DECORATIVE
+
+        # Row 4 - MANGROVE
+        27: DECORATIVE
+        28: mangrove_log
+        29: mangrove_wood
+        30: stripped_mangrove_log
+        31: stripped_mangrove_wood
+        32: mangrove_planks
+        33: mangrove_leaves
+        34: mangrove_propagule
+        35: DECORATIVE
+
+        # Row 5 - MANGROVE / AZALEA
+        36: mangrove_roots
+        37: muddy_mangrove_roots
+        38: azalea_leaves
+        39: flowering_azalea_leaves
+        40: azalea
+        41: flowering_azalea
+        42: EMPTY_SLOT
+        43: EMPTY_SLOT
+        44: DECORATIVE
+
+        # Bottom row / controls
+        45: PREVIOUS_PAGE
+        46: HOLOGRAM_TOGGLE
+        47: DECORATIVE
+        48: DECORATIVE
+        49: CLOSE_GUI
+        50: DECORATIVE
+        51: DECORATIVE
+        52: DECORATIVE
+        53: NEXT_PAGE
+
+# If you need to expand to another page, remove the # before 4 on line 214
+# then remove all the other # directly below that one
+# (delete the #, do not replace them with spaces)
+
+
+#    4:
+#     slots:
+#       # Row 0 – Top decorative (do not modify)
+#       0: DECORATIVE
+#       1: DECORATIVE
+#       2: DECORATIVE
+#       3: DECORATIVE
+#       4: DECORATIVE
+#       5: DECORATIVE
+#       6: DECORATIVE
+#       7: DECORATIVE
+#       8: DECORATIVE
+
+#       9: DECORATIVE
+#       10: EMPTY_SLOT
+#       11: EMPTY_SLOT
+#       12: EMPTY_SLOT
+#       13: EMPTY_SLOT
+#       14: EMPTY_SLOT
+#       15: EMPTY_SLOT
+#       16: EMPTY_SLOT
+#       17: DECORATIVE
+
+#       18: DECORATIVE
+#       19: EMPTY_SLOT
+#       20: EMPTY_SLOT
+#       21: EMPTY_SLOT
+#       22: EMPTY_SLOT
+#       23: EMPTY_SLOT
+#       24: EMPTY_SLOT
+#       25: EMPTY_SLOT
+#       26: DECORATIVE
+
+#       27: DECORATIVE
+#       28: EMPTY_SLOT
+#       29: EMPTY_SLOT
+#       30: EMPTY_SLOT
+#       31: EMPTY_SLOT
+#       32: EMPTY_SLOT
+#       33: EMPTY_SLOT
+#       34: EMPTY_SLOT
+#       35: DECORATIVE
+
+#       36: DECORATIVE
+#       37: EMPTY_SLOT
+#       38: EMPTY_SLOT
+#       39: EMPTY_SLOT
+#       40: EMPTY_SLOT
+#       41: EMPTY_SLOT
+#       42: EMPTY_SLOT
+#       43: EMPTY_SLOT
+#       44: DECORATIVE #
+
+#       # Row 5 – Bottom controls
+#       45: PREVIOUS_PAGE
+#       46: HOLOGRAM_TOGGLE
+#       47: DECORATIVE
+#       48: DECORATIVE
+#       49: CLOSE_GUI
+#       50: DECORATIVE
+#       51: DECORATIVE
+#       52: DECORATIVE
+#       53: NEXT_PAGE

@@ -1,0 +1,225 @@
+<hopper_name>_filter_gui:
+  size: 54
+  title: "<Hopper Name> Filter"
+  pages:
+    1:
+      slots:
+        # ----------------------
+        # Top decorative row
+        # ----------------------
+        0: DECORATIVE
+        1: DECORATIVE
+        2: DECORATIVE
+        3: DECORATIVE
+        4: DECORATIVE
+        5: DECORATIVE
+        6: DECORATIVE
+        7: DECORATIVE
+        8: DECORATIVE
+
+        # ----------------------
+        # Rows 2–5: item filter slots
+        # Replace <item_1>, <item_2>... with actual filterable items
+        # ----------------------
+        9: DECORATIVE
+        10: <item_1>
+        11: <item_2>
+        12: <item_3>
+        13: <item_4>
+        14: <item_5>
+        15: <item_6>
+        16: <item_7>
+        17: DECORATIVE
+
+        18: DECORATIVE
+        19: <item_8>
+        20: <item_9>
+        21: <item_10>
+        22: <item_11>
+        23: <item_12>
+        24: <item_13>
+        25: <item_14>
+        26: DECORATIVE
+
+        27: DECORATIVE
+        28: <item_15>
+        29: <item_16>
+        30: <item_17>
+        31: <item_18>
+        32: <item_19>
+        33: <item_20>
+        34: <item_21>
+        35: DECORATIVE
+
+        36: DECORATIVE
+        37: <item_22>
+        38: <item_23>
+        39: <item_24>
+        40: <item_25>
+        41: <item_26>
+        42: <item_27>
+        43: <item_28>
+        44: DECORATIVE
+
+        # ----------------------
+        # Bottom row: static controls
+        # ----------------------
+        45: PREVIOUS_PAGE
+        46: HOLOGRAM_TOGGLE
+        47: DECORATIVE
+        48: DECORATIVE
+        49: CLOSE_GUI
+        50: DECORATIVE
+        51: DECORATIVE
+        52: DECORATIVE
+        53: NEXT_PAGE
+
+    # ----------------------
+    # Page 2
+    # ----------------------
+    2:
+      slots:
+        # ----------------------
+        # Top decorative row
+        # ----------------------
+        0: DECORATIVE
+        1: DECORATIVE
+        2: DECORATIVE
+        3: DECORATIVE
+        4: DECORATIVE
+        5: DECORATIVE
+        6: DECORATIVE
+        7: DECORATIVE
+        8: DECORATIVE
+
+        # ----------------------
+        # Rows 2–5: item filter slots
+        # Replace <item_1>, <item_2>... with actual filterable items
+        # ----------------------
+        9: DECORATIVE
+        10: <item_1>
+        11: <item_2>
+        12: <item_3>
+        13: <item_4>
+        14: <item_5>
+        15: <item_6>
+        16: <item_7>
+        17: DECORATIVE
+
+        18: DECORATIVE
+        19: <item_8>
+        20: <item_9>
+        21: <item_10>
+        22: <item_11>
+        23: <item_12>
+        24: <item_13>
+        25: <item_14>
+        26: DECORATIVE
+
+        27: DECORATIVE
+        28: <item_15>
+        29: <item_16>
+        30: <item_17>
+        31: <item_18>
+        32: <item_19>
+        33: <item_20>
+        34: <item_21>
+        35: DECORATIVE
+
+        36: DECORATIVE
+        37: <item_22>
+        38: <item_23>
+        39: <item_24>
+        40: <item_25>
+        41: <item_26>
+        42: <item_27>
+        43: <item_28>
+        44: DECORATIVE
+
+        # ----------------------
+        # Bottom row: static controls
+        # ----------------------
+        45: PREVIOUS_PAGE
+        46: HOLOGRAM_TOGGLE
+        47: DECORATIVE
+        48: DECORATIVE
+        49: CLOSE_GUI
+        50: DECORATIVE
+        51: DECORATIVE
+        52: DECORATIVE
+        53: NEXT_PAGE
+
+    # ----------------------
+    # Page 3
+    # ----------------------
+    3:
+      slots:
+        # ----------------------
+        # Top decorative row
+        # ----------------------
+        0: DECORATIVE
+        1: DECORATIVE
+        2: DECORATIVE
+        3: DECORATIVE
+        4: DECORATIVE
+        5: DECORATIVE
+        6: DECORATIVE
+        7: DECORATIVE
+        8: DECORATIVE
+
+        # ----------------------
+        # Rows 2–5: item filter slots
+        # Replace <item_1>, <item_2>... with actual filterable items
+        # ----------------------
+        9: DECORATIVE
+        10: <item_1>
+        11: <item_2>
+        12: <item_3>
+        13: <item_4>
+        14: <item_5>
+        15: <item_6>
+        16: <item_7>
+        17: DECORATIVE
+
+        18: DECORATIVE
+        19: <item_8>
+        20: <item_9>
+        21: <item_10>
+        22: <item_11>
+        23: <item_12>
+        24: <item_13>
+        25: <item_14>
+        26: DECORATIVE
+
+        27: DECORATIVE
+        28: <item_15>
+        29: <item_16>
+        30: <item_17>
+        31: <item_18>
+        32: <item_19>
+        33: <item_20>
+        34: <item_21>
+        35: DECORATIVE
+
+        36: DECORATIVE
+        37: <item_22>
+        38: <item_23>
+        39: <item_24>
+        40: <item_25>
+        41: <item_26>
+        42: <item_27>
+        43: <item_28>
+        44: DECORATIVE
+
+        # ----------------------
+        # Bottom row: static controls
+        # ----------------------
+        45: PREVIOUS_PAGE
+        46: HOLOGRAM_TOGGLE
+        47: DECORATIVE
+        48: DECORATIVE
+        49: CLOSE_GUI
+        50: DECORATIVE
+        51: DECORATIVE
+        52: DECORATIVE
+        53: NEXT_PAGE

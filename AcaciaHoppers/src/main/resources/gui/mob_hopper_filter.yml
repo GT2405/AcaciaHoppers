@@ -1,0 +1,205 @@
+mob_hopper_filter_gui:
+  size: 54
+  title: "Mob Hopper Filter"
+  pages:
+    1:
+      slots:
+        # Row 0 – Top decorative row
+        0: DECORATIVE
+        1: DECORATIVE
+        2: DECORATIVE
+        3: DECORATIVE
+        4: DECORATIVE
+        5: DECORATIVE
+        6: DECORATIVE
+        7: DECORATIVE
+        8: DECORATIVE
+
+        # Row 1
+        9: DECORATIVE
+        10: rotten_flesh
+        11: bone
+        12: gunpowder
+        13: string
+        14: ender_pearl
+        15: glass_bottle
+        16: gold_nugget
+        17: DECORATIVE
+
+        # Row 2
+        18: DECORATIVE
+        19: rotten_flesh
+        20: bone
+        21: arrow
+        22: slime_ball
+        23: magma_cream
+        24: phantom_membrane
+        25: blaze_rod
+        26: DECORATIVE
+
+        # Row 3
+        27: DECORATIVE
+        28: ghast_tear
+        29: emerald
+        30: raw_beef
+        31: cooked_porkchop
+        32: raw_chicken
+        33: raw_mutton
+        34: dragon_breath
+        35: DECORATIVE
+
+        # Row 4
+        36: DECORATIVE
+        37: wither_skeleton_skull
+        38: leather
+        39: rabbit_hide
+        40: turtle_shell
+        41: shulker_shell
+        42: egg
+        43: verdant_froglight
+        44: DECORATIVE
+
+        # Row 5 – Bottom controls
+        45: PREVIOUS_PAGE
+        46: HOLOGRAM_TOGGLE
+        47: DECORATIVE
+        48: DECORATIVE
+        49: CLOSE_GUI
+        50: DECORATIVE
+        51: DECORATIVE
+        52: DECORATIVE
+        53: NEXT_PAGE
+
+    2:
+      slots:
+        # Row 0 – Top decorative
+        0: DECORATIVE
+        1: DECORATIVE
+        2: DECORATIVE
+        3: DECORATIVE
+        4: DECORATIVE
+        5: DECORATIVE
+        6: DECORATIVE
+        7: DECORATIVE
+        8: DECORATIVE
+
+        # Rows 1–4 – Placeholder / Froglight items
+        9: DECORATIVE
+        10: ochre_froglight
+        11: pearlescent_froglight
+        12: EMPTY_SLOT
+        13: EMPTY_SLOT
+        14: EMPTY_SLOT
+        15: EMPTY_SLOT
+        16: EMPTY_SLOT
+        17: DECORATIVE
+
+        18: DECORATIVE
+        19: EMPTY_SLOT
+        20: EMPTY_SLOT
+        21: EMPTY_SLOT
+        22: EMPTY_SLOT
+        23: EMPTY_SLOT
+        24: EMPTY_SLOT
+        25: EMPTY_SLOT
+        26: DECORATIVE
+
+        27: DECORATIVE
+        28: EMPTY_SLOT
+        29: EMPTY_SLOT
+        30: EMPTY_SLOT
+        31: EMPTY_SLOT
+        32: EMPTY_SLOT
+        33: EMPTY_SLOT
+        34: EMPTY_SLOT
+        35: DECORATIVE
+
+        36: DECORATIVE
+        37: EMPTY_SLOT
+        38: EMPTY_SLOT
+        39: EMPTY_SLOT
+        40: EMPTY_SLOT
+        41: EMPTY_SLOT
+        42: EMPTY_SLOT
+        43: EMPTY_SLOT
+        44: DECORATIVE
+
+        # Bottom row – controls
+        45: PREVIOUS_PAGE
+        46: HOLOGRAM_TOGGLE
+        47: DECORATIVE
+        48: DECORATIVE
+        49: CLOSE_GUI
+        50: DECORATIVE
+        51: DECORATIVE
+        52: DECORATIVE
+        53: NEXT_PAGE
+
+# If you need to expand to another page, remove the # before 3 on line 146
+# then remove all the other # directly below that one
+# (delete the #, don't replace them with spaces)
+
+
+#    3:
+#     slots:
+#       # Row 0 – Top decorative (do not modify)
+#       0: DECORATIVE
+#       1: DECORATIVE
+#       2: DECORATIVE
+#       3: DECORATIVE
+#       4: DECORATIVE
+#       5: DECORATIVE
+#       6: DECORATIVE
+#       7: DECORATIVE
+#       8: DECORATIVE
+
+#       9: DECORATIVE
+#       10: EMPTY_SLOT
+#       11: EMPTY_SLOT
+#       12: EMPTY_SLOT
+#       13: EMPTY_SLOT
+#       14: EMPTY_SLOT
+#       15: EMPTY_SLOT
+#       16: EMPTY_SLOT
+#       17: DECORATIVE
+
+#       18: DECORATIVE
+#       19: EMPTY_SLOT
+#       20: EMPTY_SLOT
+#       21: EMPTY_SLOT
+#       22: EMPTY_SLOT
+#       23: EMPTY_SLOT
+#       24: EMPTY_SLOT
+#       25: EMPTY_SLOT
+#       26: DECORATIVE
+
+#       27: DECORATIVE
+#       28: EMPTY_SLOT
+#       29: EMPTY_SLOT
+#       30: EMPTY_SLOT
+#       31: EMPTY_SLOT
+#       32: EMPTY_SLOT
+#       33: EMPTY_SLOT
+#       34: EMPTY_SLOT
+#       35: DECORATIVE
+
+#       36: DECORATIVE
+#       37: EMPTY_SLOT
+#       38: EMPTY_SLOT
+#       39: EMPTY_SLOT
+#       40: EMPTY_SLOT
+#       41: EMPTY_SLOT
+#       42: EMPTY_SLOT
+#       43: EMPTY_SLOT
+#       44: DECORATIVE #
+
+#       # Row 5 – Bottom controls
+#       45: PREVIOUS_PAGE
+#       46: HOLOGRAM_TOGGLE
+#       47: DECORATIVE
+#       48: DECORATIVE
+#       49: CLOSE_GUI
+#       50: DECORATIVE
+#       51: DECORATIVE
+#       52: DECORATIVE
+#       53: NEXT_PAGE

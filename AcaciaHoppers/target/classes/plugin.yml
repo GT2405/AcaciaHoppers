@@ -1,0 +1,14 @@
+name: AcaciaHoppers
+version: '1.0-SNAPSHOT'
+main: org.AH1_1.acaciaHoppers.AcaciaHoppers
+api-version: '1.21'
+load: STARTUP
+authors: [GT2405]
+description: A hopper and super chest management plugin
+
+commands:
+  acaciahoppers:
+    description: Main command for AcaciaHoppers
+    usage: /acaciahoppers <reload|chest|mob|crop|ore|tree|fish> [name]
+    permission: acaciahoppers.admin
+    permission-message: You do not have permission to use this command.
